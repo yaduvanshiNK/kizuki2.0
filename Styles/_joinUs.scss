@@ -1,0 +1,109 @@
+#join-Us {
+  min-height: 100vh;
+  position: relative;
+}
+
+.monkBG {
+  position: absolute;
+  bottom: 0;
+  background-color: #1fe59e;
+  min-height: 40rem;
+  min-width: 100%;
+  z-index: -2;
+}
+
+.join-container {
+  display: flex;
+  color: white;
+  justify-content: space-between;
+  .monk-img {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    img {
+      width: 50vw;
+    }
+  }
+}
+.join-info {
+  margin-right: 15vw;
+  margin-top: 20rem;
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  flex-direction: column;
+  img {
+    max-width: 20vw;
+  }
+  .quote-container {
+    position: relative;
+    background-color: #0a110c;
+    min-width: 40rem;
+    padding: 1.5rem 3rem 3rem 2rem;
+    border-radius: 0 7px 3rem 7px;
+    font-size: 1.1rem;
+    font-style: italic;
+    div {
+      &:nth-child(1) {
+        color: #b3b3b3;
+        font-weight: 700;
+      }
+      &:nth-child(2) {
+        color: white;
+        font-weight: 700;
+      }
+    }
+  }
+  .question {
+    font-style: normal;
+    position: absolute;
+    bottom: 0;
+    transform: translateY(50%);
+    background-color: white;
+    color: black;
+    padding: 1rem;
+    padding-right: 4rem;
+    padding-left: 2rem;
+    border-radius: 0 5px 1.5rem 5px;
+    font-size: 1.2rem;
+  }
+}
+
+.joining-social {
+  margin-top: 5rem;
+  button {
+    border: none;
+    outline: none;
+    padding: 0.5rem 1rem;
+    border-radius: 3rem;
+    margin-right: 2rem;
+    min-width: 10rem;
+    background-color: #0a110c;
+    color: #1fe59e;
+    cursor: pointer;
+  }
+}
+.join-discord {
+  &::before {
+    font-family: "Font Awesome 5 Brands";
+    font-weight: 900;
+    content: "\f392";
+    margin-right: 1rem;
+  }
+}
+.join-instagram {
+  &::before {
+    font-family: "Font Awesome 5 Brands";
+    font-weight: 900;
+    content: "\f16d";
+    margin-right: 1rem;
+  }
+}
+.join-twitter {
+  &::before {
+    font-family: "Font Awesome 5 Brands";
+    font-weight: 900;
+    content: "\f099";
+    margin-right: 1rem;
+  }
+}

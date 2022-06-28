@@ -1,0 +1,73 @@
+#faq-secion {
+  width: 80%;
+  margin: auto;
+  min-height: 100vh;
+  padding-top: 10rem;
+}
+.faq-section {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.faq-image {
+  width: 40vw;
+  img {
+    width: 100%;
+  }
+}
+.faq-heading {
+  font-family: "primaryFont";
+  font-size: 3rem;
+  color: white;
+  font-weight: 900;
+  font-style: italic;
+  padding: 1rem 3rem;
+  display: flex;
+  align-items: center;
+  svg {
+    max-width: 100%;
+  }
+}
+.faq-question {
+  padding-top: 20vh;
+}
+.card {
+  width: 40vw;
+  margin: 0.5rem;
+  background-color: #191d1b;
+  color: white;
+  border-radius: 0.7rem;
+  padding: 1rem;
+}
+
+.card-header {
+  border: none;
+  display: flex;
+  justify-content: space-between;
+  font-family: "primaryFont";
+  padding: 0rem;
+
+  &:hover {
+    color: rgb(199, 199, 199);
+    cursor: pointer;
+  }
+  div {
+    font-weight: 500;
+    font-size: 1rem;
+    text-transform: capitalize;
+    padding: 0.5rem 1rem;
+  }
+  &::after {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f107";
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+  }
+}
+
+.card-body {
+  padding: 1rem;
+}

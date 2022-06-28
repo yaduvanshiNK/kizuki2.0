@@ -1,0 +1,56 @@
+.homepage-container {
+  flex-direction: column-reverse;
+  padding-bottom: 5rem;
+}
+
+.navbar-items {
+  padding: 0 0.5rem;
+}
+.nft-slider {
+  min-height: 65vw;
+  flex: 1;
+}
+
+.nft-slider img {
+  position: absolute;
+  top: 5rem;
+}
+
+.nft-slider img:nth-child(1) {
+  left: -48vw;
+  top: 3rem;
+  max-width: 45vw;
+}
+
+.nft-slider img:nth-child(2) {
+  z-index: 2;
+  top: 0%;
+  left: -30vw;
+  max-width: 55vw;
+}
+
+.nft-slider img:nth-child(3) {
+  left: 4vw;
+  top: 3rem;
+  max-width: 45vw;
+}
+.homepage-left-container {
+  max-width: 100%;
+}
+.homepage-socials {
+  top: 55%;
+}
+.homepage-left-container p {
+  max-width: 90%;
+}
+
+.raodmap-cards {
+  display: flex;
+  flex-direction: column;
+}
+.benefits-heading img {
+  width: 80%;
+}
+#benefits {
+  background-size: 120%;
+}

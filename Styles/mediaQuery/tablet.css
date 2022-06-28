@@ -1,0 +1,148 @@
+.navbar-items,
+.homepage-container,
+#benefits,
+.roadmap-bg {
+  max-width: 1100px;
+}
+.nav-menu {
+  font-size: 0.8rem;
+}
+.nft-slider img {
+  position: absolute;
+  top: 25%;
+}
+
+.nft-slider img:nth-child(1) {
+  right: 70%;
+  max-width: 15rem;
+}
+
+.nft-slider img:nth-child(2) {
+  z-index: 2;
+  top: 25%;
+  right: 20%;
+  max-width: 20rem;
+}
+
+.nft-slider img:nth-child(3) {
+  right: -1rem;
+  max-width: 15rem;
+}
+
+.homepage-left-container {
+  min-width: 60%;
+}
+.homepage-left-container .kizuki-heading h1 {
+  font-size: 4.5rem;
+}
+.homepage-left-container p {
+  max-width: 75%;
+}
+.benefits-section {
+  padding: 3rem 6rem;
+  max-width: 800px;
+}
+.benefits-info p {
+  font-size: 1.5vw;
+  text-indent: -1.8rem;
+}
+.benefits-info p::before {
+  padding-right: 1rem;
+}
+
+.benefits-heading {
+  padding-top: 8rem;
+}
+.roadmap-heading {
+  padding-top: 5rem;
+}
+.raodmap-cards {
+  margin-bottom: 5rem;
+  margin-top: 0;
+}
+.each-card h3 {
+  margin: 0.5rem 0;
+}
+.each-card p {
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+.each-card:nth-child(even) .line {
+  max-width: 8rem;
+}
+.join-container .monk-img img {
+  width: 60vw;
+}
+.monkBG {
+  min-height: 35rem;
+}
+.join-info {
+  margin-right: 2rem;
+  margin-top: 8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.join-info img {
+  max-width: 30vw;
+  margin-left: 0rem;
+}
+
+.join-info .quote-container {
+  max-width: 30rem;
+  min-width: 10rem;
+  padding: 1rem 1.5rem 1.5rem 1.5rem;
+  border-radius: 0 7px 1.5rem 7px;
+  font-size: 0.8rem;
+}
+.join-info .question {
+  padding: 0.5rem;
+  padding-right: 2rem;
+  padding-left: 1rem;
+  font-size: 0.8rem;
+}
+.joining-social {
+  margin-top: 3rem;
+  z-index: 5;
+  max-width: 30rem;
+}
+.joining-social button:nth-child(3) {
+  display: none;
+}
+#faq-secion {
+  max-width: 80%;
+}
+.card {
+  width: 100%;
+  padding: 0.5rem;
+}
+.faq-image {
+  display: none;
+}
+.faq-heading {
+  padding: 1rem 1rem;
+}
+.contact-form {
+  min-width: 85%;
+}
+.contact-form textarea {
+  min-height: 15rem;
+}
+.contact-form button {
+  width: 10rem;
+  font-size: 1rem;
+  right: 0rem;
+}
+.contact-form input {
+  border-radius: 0 0.8rem 0 0;
+  padding-left: 1.5rem;
+  font-size: 1rem;
+}
+.contact-form textarea {
+  border-radius: 0 0 3rem 0;
+  padding-left: 1.5rem;
+  font-size: 1rem;
+}

@@ -1,0 +1,102 @@
+#roadmap {
+  padding-top: 10rem;
+  margin: auto;
+  position: relative;
+  background-image: url(../images/roadMapBg.png);
+  background-repeat: no-repeat;
+  background-position: top 10rem right;
+  background-size: contain;
+  position: relative;
+}
+
+.bubble4 {
+  position: absolute;
+  width: 728px;
+  height: 720px;
+  left: -450px;
+  top: 300px;
+  background: rgba(69, 207, 149, 0.42);
+  filter: blur(500px);
+}
+
+.roadmap-heading {
+  width: 80%;
+  margin: auto;
+  padding-top: 12rem;
+  padding-bottom: 7rem;
+  img {
+    width: 30vw;
+  }
+}
+
+.roadmap-img {
+  max-width: 40%;
+  img {
+    width: 30vw;
+  }
+}
+
+.raodmap-cards {
+  padding: 0 3rem;
+  max-width: 1400px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  margin-top: 6rem;
+}
+
+.active-card {
+  background: #8f68ff !important;
+  box-shadow: 0px 98.7598px 79.0078px rgba(150, 114, 255, 0.07),
+    0px 64.011px 46.2708px rgba(150, 114, 255, 0.0531481),
+    0px 38.0408px 25.1655px rgba(150, 114, 255, 0.0425185),
+    0px 19.752px 12.8388px rgba(150, 114, 255, 0.035),
+    0px 8.0471px 6.43768px rgba(150, 114, 255, 0.0274815),
+    0px 1.82889px 3.1091px rgba(150, 114, 255, 0.0168519) !important;
+}
+
+.each-card {
+  min-width: 10rem;
+  color: white;
+  padding: 1rem;
+  min-height: 10rem;
+  // border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 2rem;
+  div {
+    margin-bottom: 1rem;
+    width: 5rem;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f260e3;
+    box-shadow: 0px 98.7598px 79.0078px rgba(242, 184, 236, 0.07),
+      0px 64.011px 46.2708px rgba(242, 184, 236, 0.0531481),
+      0px 38.0408px 25.1655px rgba(242, 184, 236, 0.0425185),
+      0px 19.752px 12.8388px rgba(242, 184, 236, 0.035),
+      0px 8.0471px 6.43768px rgba(242, 184, 236, 0.0274815),
+      0px 1.82889px 3.1091px rgba(242, 184, 236, 0.0168519);
+    border-radius: 19.752px;
+  }
+  h3 {
+    margin: 1rem 0;
+    font-size: 1.3rem;
+    font-weight: bold;
+  }
+  p {
+    text-align: center;
+    font-size: 0.9rem;
+  }
+  &:nth-child(6) {
+    visibility: hidden;
+  }
+}
+
+.line {
+  max-width: 12rem;
+  transform: translateY(-5rem);
+}

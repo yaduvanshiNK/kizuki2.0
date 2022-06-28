@@ -1,0 +1,24 @@
+//Global Stylings
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0a110c;
+  overflow-x: hidden;
+}
+
+//Fonts
+@font-face {
+  src: url(../fonts/MortendExtrabold.woff);
+  font-family: "secondaryFont";
+}
+@font-face {
+  src: url(../fonts/GothamMedium.woff);
+  font-family: "primaryFont";
+}
+
+$base-bg: #0a110c;
+$primaryGreen: #1fe59e;

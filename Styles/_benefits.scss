@@ -1,0 +1,74 @@
+.binance-promo {
+  min-width: 100vw;
+  background-color: #f0f0f0;
+  padding: 1rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-x: hidden;
+}
+
+.bubble3 {
+  position: absolute;
+  width: 1230px;
+  height: 818px;
+  left: -1300px;
+  bottom: -600px;
+  background: #45cf95;
+  filter: blur(709px);
+}
+
+#benefits {
+  position: absolute;
+  margin: auto;
+  position: relative;
+  background-image: url(../images/benefitsBG.png);
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: contain;
+}
+
+.benefits-heading {
+  width: 80%;
+  margin: auto;
+  padding-top: 12rem;
+  padding-bottom: 7rem;
+  img {
+    width: 30vw;
+  }
+}
+
+.benefits-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 80%;
+  margin: auto;
+  padding: 5rem 10rem;
+  backdrop-filter: blur(5px);
+  border: 1px solid #1fe59c27;
+  border-radius: 2rem;
+}
+
+.benefits-info {
+  color: white;
+  max-width: 60%;
+  p {
+    font-size: 1.2vw;
+    text-indent: -3rem;
+    &::before {
+      font-family: "Font Awesome 5 Free";
+      font-weight: 900;
+      content: "\f219";
+      font-size: 10px;
+      padding-right: 2rem;
+    }
+  }
+}
+
+.benefits-img {
+  max-width: 40%;
+  img {
+    width: 30vw;
+  }
+}

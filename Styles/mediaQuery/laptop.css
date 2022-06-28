@@ -1,0 +1,102 @@
+.navbar-items,
+.homepage-container,
+#benefits,
+.roadmap-bg {
+  max-width: 1300px;
+}
+
+.navbar-items {
+  padding: 0 3rem;
+}
+
+.homepage-socials {
+  right: 2rem;
+}
+
+.homepage-left-container {
+  min-width: 40%;
+}
+
+.homepage-left-container .kizuki-heading h1 {
+  font-size: 5rem;
+}
+
+.nft-slider img {
+  position: absolute;
+  top: 10%;
+}
+
+.homepage-left-container p {
+  max-width: 100%;
+}
+
+.nft-slider img:nth-child(1) {
+  right: 50%;
+  max-width: 20rem;
+}
+
+.nft-slider img:nth-child(2) {
+  z-index: 2;
+  top: 20%;
+  right: 20%;
+  max-width: 25rem;
+}
+
+.nft-slider img:nth-child(3) {
+  right: 0rem;
+  max-width: 20rem;
+}
+#cardSlider {
+  margin-top: 10rem;
+}
+.top-slider-img,
+.bottom-slider-img {
+  margin-right: 2rem;
+  min-width: 15rem;
+}
+.bottom-slider-img {
+  margin-top: 2rem;
+}
+
+.join-container .monk-img img {
+  width: 50vw;
+}
+.join-info {
+  margin-right: 5vw;
+  margin-top: 12rem;
+}
+.join-info .quote-container {
+  min-width: 30rem;
+  padding: 1.5rem 2rem 2rem 2rem;
+  font-size: 1rem;
+}
+.join-info .quote-container div:nth-child(1) {
+  color: #b3b3b3;
+  font-weight: 500;
+}
+
+.join-info .quote-container div:nth-child(2) {
+  color: white;
+  font-weight: 500;
+}
+
+.join-info .question {
+  padding: 0.5rem;
+  padding-right: 4rem;
+  padding-left: 2rem;
+  font-size: 1rem;
+}
+
+#faq-secion {
+  padding-top: 0rem;
+  width: 1300px;
+}
+.card {
+  width: 50vw;
+}
+.contact-form {
+  width: 60vw;
+}
+.contact-form textarea {
+  min-height: 20rem;
+}
