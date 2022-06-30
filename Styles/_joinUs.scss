@@ -1,13 +1,14 @@
 #join-Us {
   min-height: 100vh;
   position: relative;
+  font-family: "primaryFont";
 }
 
 .monkBG {
   position: absolute;
   bottom: 0;
   background-color: #1fe59e;
-  min-height: 40rem;
+  min-height: 45rem;
   min-width: 100%;
   z-index: -2;
 }
@@ -28,7 +29,8 @@
 }
 .join-info {
   margin-right: 15vw;
-  margin-top: 20rem;
+  padding-top: 5rem;
+  margin-top: 25rem;
   display: flex;
   justify-content: center;
   align-items: left;
@@ -37,6 +39,7 @@
     max-width: 20vw;
   }
   .quote-container {
+    letter-spacing: -0.07em;
     position: relative;
     background-color: #0a110c;
     min-width: 40rem;
@@ -58,6 +61,7 @@
     }
   }
   .question {
+    font-family: "BOOKFont";
     font-style: normal;
     position: absolute;
     bottom: 0;
@@ -69,6 +73,11 @@
     padding-left: 2rem;
     border-radius: 0 5px 1.5rem 5px;
     font-size: 1.2rem;
+    strong {
+      letter-spacing: -0.06em;
+      font-family: "BLACKFont";
+      font-weight: 700;
+    }
   }
 }
 
