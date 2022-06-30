@@ -10,6 +10,12 @@ body {
   overflow-x: hidden;
 }
 
+.snap-container {
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  height: 100vh;
+}
+
 //Fonts
 @font-face {
   src: url(../fonts/GothamMedium.woff);

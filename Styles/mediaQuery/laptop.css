@@ -61,15 +61,11 @@
 .top-slider-img,
 .bottom-slider-img {
   margin-right: 1.5em;
-  min-width: 10rem;
+  min-width: 15rem;
 }
 
 .bottom-slider-img {
   margin-top: 1.5rem;
-}
-
-.bottom-slider-img {
-  margin-top: 2rem;
 }
 
 .join-container .monk-img img {

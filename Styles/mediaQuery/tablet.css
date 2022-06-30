@@ -61,6 +61,11 @@
   padding-top: 8rem;
 }
 
+.top-slider-img,
+.bottom-slider-img {
+  min-width: 10rem;
+}
+
 .roadmap-heading {
   padding-top: 5rem;
 }
