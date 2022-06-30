@@ -63,9 +63,11 @@
   margin-right: 1.5em;
   min-width: 10rem;
 }
+
 .bottom-slider-img {
   margin-top: 1.5rem;
 }
+
 .bottom-slider-img {
   margin-top: 2rem;
 }
@@ -73,17 +75,20 @@
 .join-container .monk-img img {
   width: 50vw;
 }
+
 .join-info {
   height: 40rem;
   margin-right: 5rem;
   padding-top: 15rem;
   padding-bottom: 5rem;
 }
+
 .join-info .quote-container {
   min-width: 30rem;
   padding: 1.5rem 2rem 2rem 2rem;
   font-size: 1rem;
 }
+
 .join-info .quote-container div:nth-child(1) {
   color: #b3b3b3;
   font-weight: 500;
@@ -105,12 +110,15 @@
   padding-top: 0rem;
   width: 1300px;
 }
+
 .card {
   width: 50vw;
 }
+
 .contact-form {
   width: 60vw;
 }
+
 .contact-form textarea {
   min-height: 20rem;
 }
