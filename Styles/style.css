@@ -11,13 +11,18 @@ body {
 }
 
 @font-face {
-  src: url(../fonts/MortendExtrabold.woff);
+  src: url(../fonts/GothamMedium.woff);
+  font-family: "primaryFont";
+}
+
+@font-face {
+  src: url(../fonts/GOTHAMLIGHT.woff);
   font-family: "secondaryFont";
 }
 
 @font-face {
-  src: url(../fonts/GothamMedium.woff);
-  font-family: "primaryFont";
+  src: url(../fonts/GOTHAMBOOK.woff);
+  font-family: "BOOKFont";
 }
 
 #homepage {
@@ -58,12 +63,11 @@ body {
 }
 
 #navbar {
-  min-height: 5rem;
   margin-top: 1rem;
+  min-height: 6rem;
 }
 
 .navbar-items {
-  min-height: 6rem;
   max-width: 1600px;
   margin: auto;
   display: -webkit-box;
@@ -79,7 +83,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  font-family: "primaryFont";
+  font-family: "secondaryFont";
 }
 
 .nav-menu .menu {
@@ -90,6 +94,8 @@ body {
   width: 5rem;
   -webkit-transition: all 0.05s ease;
   transition: all 0.05s ease;
+  font-size: 0.7rem;
+  font-weight: bold;
   padding: 1rem 0;
 }
 
@@ -195,14 +201,17 @@ body {
 }
 
 .homepage-left-container p {
-  max-width: 90%;
-  font-size: 1rem;
+  font-family: "BOOKFont";
+  max-width: 100%;
+  font-size: 0.9rem;
   margin-top: 1rem;
   color: #c0c6c3;
+  line-height: 1.2rem;
 }
 
 .homepage-left-container .header-btns {
   margin-top: 1rem;
+  font-family: "secondaryFont";
 }
 
 .homepage-left-container .header-btns button {
@@ -211,19 +220,34 @@ body {
   min-width: 10rem;
   padding: 0.5rem 2rem;
   border-radius: 5rem;
-  font-weight: 500;
+  font-weight: bold;
+  font-size: 0.9rem;
 }
 
 .homepage-left-container .header-btns .cta1 {
   background-color: #191d1b;
   color: #34dc97;
   margin-right: 2rem;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.homepage-left-container .header-btns .cta1:hover {
+  -webkit-box-shadow: rgba(52, 220, 150, 0.123) 5px 2px 30px;
+          box-shadow: rgba(52, 220, 150, 0.123) 5px 2px 30px;
 }
 
 .homepage-left-container .header-btns .cta2 {
   background-color: #1fe59e;
   color: #191d1b;
   margin-right: 2rem;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.homepage-left-container .header-btns .cta2:hover {
+  -webkit-box-shadow: rgba(52, 220, 151, 0.123) 5px 2px 30px;
+          box-shadow: rgba(52, 220, 151, 0.123) 5px 2px 30px;
 }
 
 .nft-slider {
@@ -263,6 +287,7 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  cursor: pointer;
 }
 
 .homepage-socials img {
@@ -283,6 +308,14 @@ body {
       -ms-flex-align: center;
           align-items: center;
   overflow-x: hidden;
+}
+
+.binance-promo img {
+  margin-right: 6px;
+}
+
+.binance-promo strong {
+  margin-left: 5px;
 }
 
 .bubble3 {
@@ -339,6 +372,7 @@ body {
 .benefits-info {
   color: white;
   max-width: 60%;
+  font-family: "BOOKFont";
 }
 
 .benefits-info p {
@@ -519,14 +553,16 @@ body {
 }
 
 .each-card h3 {
+  font-family: "primaryFont";
   margin: 1rem 0;
   font-size: 1.3rem;
   font-weight: bold;
 }
 
 .each-card p {
+  font-family: "BOOKFont";
   text-align: center;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
 }
 
 .each-card:nth-child(6) {
@@ -634,6 +670,7 @@ body {
 
 .card-body {
   padding: 1rem;
+  font-family: "secondaryFont";
 }
 
 .contact-section-container {
@@ -689,9 +726,9 @@ body {
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
   cursor: pointer;
-  width: 12rem;
+  width: 11rem;
   font-family: "primaryFont";
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   border-radius: 5rem;
   border: none;
   outline: none;
@@ -731,6 +768,7 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  padding-bottom: 4rem;
 }
 
 .join-container .monk-img {
@@ -777,12 +815,14 @@ body {
 
 .join-info .quote-container div:nth-child(1) {
   color: #b3b3b3;
-  font-weight: 700;
+  font-weight: bold;
+  font-family: "secondaryFont";
 }
 
 .join-info .quote-container div:nth-child(2) {
+  font-family: "secondaryFont";
   color: white;
-  font-weight: 700;
+  font-weight: bold;
 }
 
 .join-info .question {
@@ -812,11 +852,12 @@ body {
   margin-right: 2rem;
   min-width: 10rem;
   background-color: #0a110c;
-  color: #1fe59e;
+  color: #ffffff;
   cursor: pointer;
 }
 
 .join-discord::before {
+  color: #1fe59e;
   font-family: "Font Awesome 5 Brands";
   font-weight: 900;
   content: "\f392";
@@ -824,6 +865,7 @@ body {
 }
 
 .join-instagram::before {
+  color: #1fe59e;
   font-family: "Font Awesome 5 Brands";
   font-weight: 900;
   content: "\f16d";
@@ -831,6 +873,7 @@ body {
 }
 
 .join-twitter::before {
+  color: #1fe59e;
   font-family: "Font Awesome 5 Brands";
   font-weight: 900;
   content: "\f099";

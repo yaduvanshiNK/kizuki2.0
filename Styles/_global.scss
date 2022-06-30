@@ -12,13 +12,16 @@ body {
 
 //Fonts
 @font-face {
-  src: url(../fonts/MortendExtrabold.woff);
-  font-family: "secondaryFont";
-}
-@font-face {
   src: url(../fonts/GothamMedium.woff);
   font-family: "primaryFont";
 }
-
+@font-face {
+  src: url(../fonts/GOTHAMLIGHT.woff);
+  font-family: "secondaryFont";
+}
+@font-face {
+  src: url(../fonts/GOTHAMBOOK.woff);
+  font-family: "BOOKFont";
+}
 $base-bg: #0a110c;
 $primaryGreen: #1fe59e;

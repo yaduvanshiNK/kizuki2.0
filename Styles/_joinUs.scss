@@ -16,6 +16,7 @@
   display: flex;
   color: white;
   justify-content: space-between;
+  padding-bottom: 4rem;
   .monk-img {
     position: absolute;
     left: 0;
@@ -46,11 +47,13 @@
     div {
       &:nth-child(1) {
         color: #b3b3b3;
-        font-weight: 700;
+        font-weight: bold;
+        font-family: "secondaryFont";
       }
       &:nth-child(2) {
+        font-family: "secondaryFont";
         color: white;
-        font-weight: 700;
+        font-weight: bold;
       }
     }
   }
@@ -79,12 +82,13 @@
     margin-right: 2rem;
     min-width: 10rem;
     background-color: #0a110c;
-    color: #1fe59e;
+    color: #ffffff;
     cursor: pointer;
   }
 }
 .join-discord {
   &::before {
+    color: #1fe59e;
     font-family: "Font Awesome 5 Brands";
     font-weight: 900;
     content: "\f392";
@@ -93,6 +97,7 @@
 }
 .join-instagram {
   &::before {
+    color: #1fe59e;
     font-family: "Font Awesome 5 Brands";
     font-weight: 900;
     content: "\f16d";
@@ -101,6 +106,7 @@
 }
 .join-twitter {
   &::before {
+    color: #1fe59e;
     font-family: "Font Awesome 5 Brands";
     font-weight: 900;
     content: "\f099";

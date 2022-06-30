@@ -46,13 +46,25 @@
   right: 0rem;
   max-width: 20rem;
 }
+
+#roadmap {
+  padding-top: 0;
+  background-position: top;
+  background-size: 120%;
+  margin-top: 5rem;
+}
+
 #cardSlider {
   margin-top: 10rem;
 }
+
 .top-slider-img,
 .bottom-slider-img {
-  margin-right: 2rem;
-  min-width: 15rem;
+  margin-right: 1.5em;
+  min-width: 10rem;
+}
+.bottom-slider-img {
+  margin-top: 1.5rem;
 }
 .bottom-slider-img {
   margin-top: 2rem;
@@ -62,9 +74,9 @@
   width: 50vw;
 }
 .join-info {
-  min-height: 90vh;
+  height: 40rem;
   margin-right: 5rem;
-  margin-top: 12rem;
+  padding-top: 15rem;
   padding-bottom: 5rem;
 }
 .join-info .quote-container {

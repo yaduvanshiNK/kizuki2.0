@@ -83,13 +83,15 @@
     border-radius: 19.752px;
   }
   h3 {
+    font-family: "primaryFont";
     margin: 1rem 0;
     font-size: 1.3rem;
     font-weight: bold;
   }
   p {
+    font-family: "BOOKFont";
     text-align: center;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
   }
   &:nth-child(6) {
     visibility: hidden;

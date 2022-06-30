@@ -31,11 +31,11 @@
   z-index: -2;
 }
 #navbar {
-  min-height: 5rem;
   margin-top: 1rem;
+  min-height: 6rem;
 }
 .navbar-items {
-  min-height: 6rem;
+  // min-height: 6rem;
   max-width: 1600px;
   margin: auto;
   display: flex;
@@ -44,7 +44,8 @@
 }
 .nav-menu {
   display: flex;
-  font-family: "primaryFont";
+  font-family: "secondaryFont";
+
   .menu {
     text-transform: uppercase;
     text-align: center;
@@ -52,7 +53,10 @@
     cursor: pointer;
     width: 5rem;
     transition: all 0.05s ease;
+    font-size: 0.7rem;
+    font-weight: bold;
     padding: 1rem 0;
+
     &:hover {
       border-bottom: 2px solid #1fe59e;
     }
@@ -120,30 +124,43 @@
     }
   }
   p {
-    max-width: 90%;
-    font-size: 1rem;
+    font-family: "BOOKFont";
+    max-width: 100%;
+    font-size: 0.9rem;
     margin-top: 1rem;
     color: #c0c6c3;
+    line-height: 1.2rem;
   }
   .header-btns {
     margin-top: 1rem;
+    font-family: "secondaryFont";
+
     button {
       border: none;
       outline: none;
       min-width: 10rem;
       padding: 0.5rem 2rem;
       border-radius: 5rem;
-      font-weight: 500;
+      font-weight: bold;
+      font-size: 0.9rem;
     }
     .cta1 {
       background-color: #191d1b;
       color: #34dc97;
       margin-right: 2rem;
+      transition: all 0.5s ease;
+      &:hover {
+        box-shadow: rgba(52, 220, 150, 0.123) 5px 2px 30px;
+      }
     }
     .cta2 {
       background-color: #1fe59e;
       color: #191d1b;
       margin-right: 2rem;
+      transition: all 0.5s ease;
+      &:hover {
+        box-shadow: rgba(52, 220, 151, 0.123) 5px 2px 30px;
+      }
     }
   }
 }
@@ -174,6 +191,7 @@
   right: 4rem;
   display: flex;
   flex-direction: column;
+  cursor: pointer;
   img {
     margin: 1rem;
   }
