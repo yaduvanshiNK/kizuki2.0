@@ -33,12 +33,11 @@
 }
 
 .homepage-socials {
-  top: 40%;
+  top: 50%;
   right: 1rem;
 }
 .homepage-container {
   max-width: 100%;
-
   padding-left: 2rem;
 }
 
@@ -69,20 +68,20 @@
 
 .nft-slider img:nth-child(1) {
   left: -40vw;
-  top: 3rem;
+  top: 0rem;
   max-width: 35vw;
 }
 
 .nft-slider img:nth-child(2) {
   z-index: 2;
-  top: 20%;
+  top: 8%;
   left: -22vw;
   max-width: 45vw;
 }
 
 .nft-slider img:nth-child(3) {
   left: 9vw;
-  top: 3rem;
+  top: 0rem;
   max-width: 35vw;
 }
 
