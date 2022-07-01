@@ -69,20 +69,20 @@
 
 .nft-slider img:nth-child(1) {
   left: -40vw;
-  top: 1rem;
+  top: 3rem;
   max-width: 35vw;
 }
 
 .nft-slider img:nth-child(2) {
   z-index: 2;
-  top: 10%;
+  top: 20%;
   left: -22vw;
   max-width: 45vw;
 }
 
 .nft-slider img:nth-child(3) {
   left: 9vw;
-  top: 1rem;
+  top: 3rem;
   max-width: 35vw;
 }
 
