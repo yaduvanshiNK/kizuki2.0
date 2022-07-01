@@ -37,6 +37,11 @@
 }
 .homepage-container {
   max-width: 100%;
+  padding-left: 2rem;
+}
+
+.homepage-left-container .kizuki-heading h1 {
+  font-size: 4rem;
 }
 .homepage-left-container .header-btns {
   display: flex;
@@ -112,6 +117,10 @@
 .roadmap-heading img {
   width: 55vw;
 }
+.join-info {
+  padding: 0 2rem;
+}
+
 .joining-social {
   display: flex;
   justify-content: center;
@@ -147,6 +156,7 @@
 
 #faq-secion {
   min-height: 150vh;
+  min-width: 85%;
 }
 
 .contact-section-container {
