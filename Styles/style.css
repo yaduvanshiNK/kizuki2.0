@@ -311,6 +311,8 @@ body {
 }
 
 .binance-promo {
+  font-family: "secondaryFont";
+  font-weight: bold;
   background-color: #f0f0f0;
   padding: 1rem 0;
   display: -webkit-box;
@@ -330,6 +332,7 @@ body {
 }
 
 .binance-promo strong {
+  font-family: "primaryFont";
   margin-left: 5px;
 }
 
@@ -436,7 +439,7 @@ body {
 
 .top-slider-img,
 .bottom-slider-img {
-  margin-right: 3rem;
+  margin-right: 3em;
   min-width: 18rem;
 }
 
@@ -618,7 +621,6 @@ body {
 #faq-secion {
   width: 80%;
   margin: auto;
-  min-height: 100vh;
   padding-top: 10rem;
 }
 
@@ -713,7 +715,6 @@ body {
 }
 
 .contact-section-container {
-  min-height: 70vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -731,6 +732,7 @@ body {
 }
 
 .contact-form {
+  padding-top: 10rem;
   width: 70vw;
   position: relative;
 }
@@ -862,7 +864,6 @@ body {
   padding: 1.5rem 3rem 3rem 2rem;
   border-radius: 0 7px 3rem 7px;
   font-size: 1.1rem;
-  font-style: italic;
 }
 
 .join-info .quote-container div:nth-child(1) {
@@ -918,7 +919,6 @@ body {
 .join-discord::before {
   color: #1fe59e;
   font-family: "Font Awesome 5 Brands";
-  font-weight: 900;
   content: "\f392";
   margin-right: 1rem;
 }
@@ -926,7 +926,6 @@ body {
 .join-instagram::before {
   color: #1fe59e;
   font-family: "Font Awesome 5 Brands";
-  font-weight: 900;
   content: "\f16d";
   margin-right: 1rem;
 }
@@ -934,8 +933,11 @@ body {
 .join-twitter::before {
   color: #1fe59e;
   font-family: "Font Awesome 5 Brands";
-  font-weight: 900;
   content: "\f099";
   margin-right: 1rem;
+}
+
+.joining-social-mobo {
+  display: none;
 }
 /*# sourceMappingURL=style.css.map */

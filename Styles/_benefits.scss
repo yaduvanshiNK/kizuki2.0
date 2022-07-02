@@ -1,4 +1,6 @@
 .binance-promo {
+  font-family: "secondaryFont";
+  font-weight: bold;
   background-color: #f0f0f0;
   padding: 1rem 0;
   display: flex;
@@ -9,6 +11,7 @@
     margin-right: 6px;
   }
   strong {
+    font-family: "primaryFont";
     margin-left: 5px;
   }
 }

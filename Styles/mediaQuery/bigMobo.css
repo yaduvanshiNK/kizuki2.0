@@ -210,7 +210,6 @@
   min-height: 0vh;
   max-height: 40rem;
 }
-.contact-section-container {
-  min-height: auto;
-  margin-top: 4rem;
+.contact-form {
+  padding-top: 5rem;
 }

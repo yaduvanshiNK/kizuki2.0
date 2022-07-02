@@ -1,5 +1,4 @@
 .contact-section-container {
-  min-height: 70vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -8,6 +7,7 @@
 }
 
 .contact-form {
+  padding-top: 10rem;
   width: 70vw;
   position: relative;
 

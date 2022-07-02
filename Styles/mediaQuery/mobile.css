@@ -144,6 +144,8 @@
 .roadmap-heading {
   padding-bottom: 2rem;
   padding-top: 0;
+  display: flex;
+  justify-content: center;
 }
 
 #roadmap {
@@ -169,10 +171,25 @@
 }
 
 #faq-secion {
-  min-height: 150vh;
   min-width: 85%;
 }
+
+.card-header div {
+  font-size: 0.8rem;
+}
+.card-body {
+  font-size: 0.8rem;
+}
+.copyright {
+  font-size: 0.7rem;
+  padding: 0.5 0;
+}
+.contact-form {
+  padding-top: 5rem;
+}
+
 .joining-social-mobo {
+  display: flex;
   color: black;
   margin-top: 3rem;
 }
@@ -196,13 +213,23 @@
 .join-info {
   max-height: 25rem;
 }
-.card-header div {
-  font-size: 0.8rem;
+
+.join-container .monk-img {
+  display: none;
 }
-.card-body {
-  font-size: 0.8rem;
+.join-info img {
+  min-width: 12rem;
+  margin-left: 10rem;
 }
-.copyright {
-  font-size: 0.7rem;
-  padding: 0.5 0;
+
+.monk-mobo {
+  position: absolute;
+  top: -12.2rem;
+  left: -10rem;
+}
+.join-info {
+  background-color: #1fe59e;
+  margin-right: 0;
+  padding: 3rem 0;
+  padding-top: 4rem;
 }
