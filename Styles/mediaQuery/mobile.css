@@ -195,6 +195,7 @@
 }
 
 .joining-social-mobo i {
+  color: #0a110c;
   font-size: 1.2rem;
   background-color: white;
   border-radius: 50%;
@@ -232,4 +233,7 @@
   margin-right: 0;
   padding: 3rem 0;
   padding-top: 4rem;
+}
+.monk-mobo {
+  display: flex;
 }

@@ -139,8 +139,22 @@
   z-index: 5;
   max-width: 30rem;
 }
-
-.joining-social button:nth-child(3) {
+.joining-social-mobo {
+  display: flex;
+}
+.joining-social-mobo i {
+  color: #0a110c;
+  font-size: 1.2rem;
+  background-color: white;
+  border-radius: 50%;
+  padding: 0.7rem;
+  margin: 10px;
+  cursor: pointer;
+}
+.joining-social-mobo i:hover {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.joining-social a button {
   display: none;
 }
 

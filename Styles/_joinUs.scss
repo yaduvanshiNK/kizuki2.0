@@ -83,16 +83,18 @@
 
 .joining-social {
   margin-top: 5rem;
-  button {
-    border: none;
-    outline: none;
-    padding: 0.5rem 1rem;
-    border-radius: 3rem;
-    margin-right: 2rem;
-    min-width: 10rem;
-    background-color: #0a110c;
-    color: #ffffff;
-    cursor: pointer;
+  a {
+    button {
+      border: none;
+      outline: none;
+      padding: 0.5rem 1rem;
+      border-radius: 3rem;
+      margin-right: 2rem;
+      min-width: 10rem;
+      background-color: #0a110c;
+      color: #ffffff;
+      cursor: pointer;
+    }
   }
 }
 .join-discord {
@@ -123,5 +125,9 @@
   }
 }
 .joining-social-mobo {
+  display: none;
+}
+
+.monk-mobo {
   display: none;
 }

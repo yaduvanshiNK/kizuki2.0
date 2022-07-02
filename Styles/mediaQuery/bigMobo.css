@@ -200,7 +200,8 @@
 #faq-secion {
   min-height: auto;
 }
-.joining-social button:nth-child(3) {
+.joining-social a,
+button:nth-child(3) {
   display: inline-block;
   margin-right: 0;
 }
