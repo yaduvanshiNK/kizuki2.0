@@ -206,3 +206,36 @@
     margin: 1rem;
   }
 }
+
+.hamburger-item-container {
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.726);
+  min-height: 100vh;
+  min-width: 100vw;
+  z-index: 10;
+  backdrop-filter: blur(2px);
+}
+
+.hambueger-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  a {
+    text-decoration: none;
+    color: white;
+    font-family: "primaryFont";
+    min-height: 3rem;
+    margin: 0.5rem;
+    font-size: 1.5rem;
+    div {
+      &:hover {
+        border-bottom: 2px solid white;
+      }
+    }
+  }
+}
