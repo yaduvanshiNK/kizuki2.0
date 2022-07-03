@@ -78,6 +78,7 @@ body {
 #navbar {
   margin-top: 1rem;
   min-height: 6rem;
+  overflow-y: hidden;
 }
 
 .navbar-items {
@@ -184,6 +185,7 @@ body {
 }
 
 .homepage-left-container {
+  overflow: hidden;
   color: white;
   max-width: 40%;
   display: -webkit-box;
@@ -211,6 +213,7 @@ body {
   display: -ms-flexbox;
   display: flex;
   color: #1fe59e;
+  overflow: hidden;
 }
 
 .homepage-left-container .kizuki-heading h1 strong {

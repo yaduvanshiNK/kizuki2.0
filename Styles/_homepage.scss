@@ -36,6 +36,7 @@
 #navbar {
   margin-top: 1rem;
   min-height: 6rem;
+  overflow-y: hidden;
 }
 .navbar-items {
   // min-height: 6rem;
@@ -109,6 +110,7 @@
 }
 
 .homepage-left-container {
+  overflow: hidden;
   color: white;
   max-width: 40%;
   display: flex;
@@ -124,6 +126,7 @@
       font-weight: bold;
       display: flex;
       color: $primaryGreen;
+      overflow: hidden;
       strong {
         color: white;
         margin-left: 1rem;
