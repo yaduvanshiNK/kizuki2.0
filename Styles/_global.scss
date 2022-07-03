@@ -14,12 +14,6 @@ body {
   overflow-x: hidden;
 }
 
-.snap-container {
-  scroll-snap-type: y mandatory;
-  overflow-y: scroll;
-  height: 100vh;
-}
-
 //Fonts
 @font-face {
   src: url(../fonts/GothamMedium.woff);
@@ -39,3 +33,9 @@ body {
 }
 $base-bg: #0a110c;
 $primaryGreen: #1fe59e;
+
+//**********MOVE TO TOP****************
+
+$back: #333;
+$color: #b3c33a;
+$speed: 1s;

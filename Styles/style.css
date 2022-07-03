@@ -14,13 +14,6 @@ body {
   overflow-x: hidden;
 }
 
-.snap-container {
-  -ms-scroll-snap-type: y mandatory;
-      scroll-snap-type: y mandatory;
-  overflow-y: scroll;
-  height: 100vh;
-}
-
 @font-face {
   src: url(../fonts/GothamMedium.woff);
   font-family: "primaryFont";
