@@ -1,4 +1,4 @@
-//Hamburegr fucntionality
+//****************Hamburegr fucntionality******************
 const hambuerger = document.querySelector(".hamburger-menu");
 const hambuergerMoboScreen = document.querySelector(
   ".hamburger-item-container"
@@ -12,10 +12,24 @@ hambuerger.addEventListener("click", () => {
   });
 });
 
-//Card Animation
-
-//***********Scroll Trigger GSAP Animations********
-
+//****************Click to Top****************
+const mybutton = document.querySelector(".move-top");
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+window.onscroll = function () {
+  scrollFunction();
+};
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+mybutton.addEventListener("click", topFunction);
+//***********Homepage GSAP Animations********
 const headerTimeline = gsap.timeline({
   scrollTrigger: {
     trigger: "#navbar",

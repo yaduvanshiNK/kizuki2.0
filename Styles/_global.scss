@@ -14,6 +14,27 @@ body {
   overflow-x: hidden;
 }
 
+::-webkit-scrollbar {
+  width: 10px;
+  background: black;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(31, 229, 158);
+  border-radius: 5px;
+  min-height: 15rem;
+}
+
+.move-top {
+  display: none;
+  right: 3.5rem;
+  bottom: 3.5rem;
+  z-index: 50;
+  max-width: 4rem;
+  position: fixed;
+  cursor: pointer;
+}
+
 //Fonts
 @font-face {
   src: url(../fonts/GothamMedium.woff);
