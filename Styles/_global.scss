@@ -13,7 +13,7 @@ body {
   background-color: #0a110c;
   overflow-x: hidden;
 }
-
+//Scrollbar Styles
 ::-webkit-scrollbar {
   width: 10px;
   background: black;
@@ -24,7 +24,7 @@ body {
   border-radius: 5px;
   min-height: 15rem;
 }
-
+//move to top btn styles
 .move-top {
   display: none;
   right: 2rem;
@@ -33,6 +33,8 @@ body {
   max-width: 2.5rem;
   position: fixed;
   cursor: pointer;
+  backdrop-filter: blur(5px);
+  border-radius: 50%;
 }
 
 //Fonts
@@ -52,5 +54,7 @@ body {
   src: url(../fonts/GOTHAMBLACK.woff);
   font-family: "BLACKFont";
 }
+
+//deafult base colors
 $base-bg: #0a110c;
 $primaryGreen: #1fe59e;

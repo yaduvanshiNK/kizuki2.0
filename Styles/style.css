@@ -33,6 +33,9 @@ body {
   max-width: 2.5rem;
   position: fixed;
   cursor: pointer;
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+  border-radius: 50%;
 }
 
 @font-face {
